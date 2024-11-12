@@ -3,6 +3,7 @@ import "./Header.css";
 
 function Header() {
   return (
+    <>
     <div className='header'>
       <nav>
         <div className='logo-container'>
@@ -36,11 +37,32 @@ function Header() {
 
       <div className='display1'>
         <div className='container1'>
-          <div className='sub-container1'></div>
-          <div className='sub-container2'></div>
+          <div className='sub-container1'>
+           <a href="#"><img src="img1.png" className="hover-image1"/> </a>
+           <span className="hover-text">urban</span>
+     
+          </div>
+          <div className='sub-container2'>
+            <a  href="#"><img src="img2.png" className="hover-image2"/></a>
+            <span className="hover-text">Rural</span>
+     
+            
+          </div>
         </div>
       </div>
     </div>
+
+    <div className="dashboard">
+
+      <div className="display">
+
+      </div>
+
+     
+    </div>
+
+    </>
+    
   );
 }
 
