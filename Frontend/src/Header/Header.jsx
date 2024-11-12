@@ -50,16 +50,17 @@ function Header() {
           </div>
         </div>
       </div>
+
+      <div className="dashboard">
+
+<div className="display">
+
+</div>
+
+
+</div>
     </div>
 
-    <div className="dashboard">
-
-      <div className="display">
-
-      </div>
-
-     
-    </div>
 
     </>
     
