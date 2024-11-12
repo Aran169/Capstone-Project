@@ -144,6 +144,7 @@ nav button:hover {
   align-items: center;
   border-radius: 40px;
   margin: auto;
+  position: relative;
 }
 
 .sub-container1,
@@ -156,4 +157,13 @@ nav button:hover {
   float: left;
   border-radius: 40px;
   margin: auto;
+}
+
+.sub-container2 img{
+  top: 50px; 
+  left: 50px; 
+  width: 500px; 
+  height: 60%;
+  margin-top: 100px;
+  margin-left: 182px;
 }

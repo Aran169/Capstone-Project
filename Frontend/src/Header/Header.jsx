@@ -1,24 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   return (
     <div className='header'>
-      <nav>
-        <div className='logo-container'>
-          <a className='logo' href='/'>
-            CITY-MONITOR
-          </a>
-        </div>
-        <img src='/logo.png' alt='logo' />
-        <div className='right-container-navbar'>
-          <a href='/'>Home</a>
-          <a href='/'>Features</a>
-          <a href='/'>Analysis</a>
-          <a href='/'>About</a>
+    <nav>
+      <div className='logo-container'>
+        <Link className='logo' to='/'>
+          CITY-MONITOR
+        </Link>
+      </div>
+      <img src='/logo.png' alt='logo' />
+      <div className='right-container-navbar'>
+        <Link to='/'>Home</Link>
+        <Link to='/features'>Features</Link>
+        <Link to='/analysis'>Analysis</Link>
+        <Link to="/about">About</Link>
+        <Link to='/login'>
           <button>Login</button>
-        </div>
-      </nav>
+        </Link>
+      </div>
+    </nav>
       <div className='header-text'>
         <h2>
           Analysed, Summarised and
@@ -37,7 +40,10 @@ function Header() {
       <div className='display1'>
         <div className='container1'>
           <div className='sub-container1'></div>
-          <div className='sub-container2'></div>
+          <div className='sub-container2'>
+            <h3>Rural</h3>
+            <img src="img2.png" alt="rural"/>
+          </div>
         </div>
       </div>
     </div>
